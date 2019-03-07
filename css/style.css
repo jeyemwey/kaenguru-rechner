@@ -1,0 +1,30 @@
+body {
+  font-family: 'Indie Flower', cursive;
+  font-size: 2rem;
+}
+body ::selection {
+  background: #ffb7b7;
+}
+body ::-moz-selection {
+  background: #ffb7b7;
+}
+
+p {
+  margin-bottom: 0;
+}
+
+.text-center p {
+  font-size: 1.5rem;
+}
+
+span.number {
+  font-size: 5rem;
+  line-height: 5rem;
+}
+
+footer ul {
+  margin-top: 2rem;
+  border-top: 1px solid #ddd;
+  padding-top: 1rem;
+  display: inline-block;
+}
